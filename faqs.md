@@ -23,7 +23,7 @@ We consider our temporary medical staff to be Signature Nurses employees. Since 
 
 ### When I call, will I talk with a recording or a live person?
 
-Signature Nurses makes every attempt to be personally available 24/7 to our clients. However, because it sometimes seems as if every call comes in at exactly the same time, you might get a message asking you to leave a voice mail. Kerry, Mary or Kelli will return your call immediately and work quickly to take care of your staffing needs.
+Signature Nurses makes every attempt to be personally available 24/7 to our clients. However, because it sometimes seems as if every call comes in at exactly the same time, you might get a message asking you to leave a voice mail. We will return your call immediately and work quickly to take care of your staffing needs.
 
 <hr>
 
