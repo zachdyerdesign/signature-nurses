@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body class="page">
+
+    {% include page-header.html %}
+
+
+    <div class="container marketing">
+      <div class="jumbotron">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.desc }}</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-9">
+          {{ content }}
+        </div>
+
+        <div class="col-md-3">
+
+          {% include sidebar.html %}
+
+          {% include sidebar2.html %}
+
+        </div>
+      </div>
+
+
+      {% include footer.html %}
+
+    </div><!-- /.container -->
+
+    {% include scripts.html %}
+
+  </body>
+</html>

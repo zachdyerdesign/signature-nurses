@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Signature Nurses
 email: signaturenurses@gmail.com
-phone: +1 785 543 5880
+phone: +1 866 543 5880
 description: Jekyll starter template for Zach Dyer Design
 url: "http://signaturenurses.com" # the base hostname & protocol for your site
 
