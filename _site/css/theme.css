@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Meddon');
+
 body.page {
   padding-top: 70px;
   padding-bottom: 30px;
@@ -15,4 +17,38 @@ body.page {
 
 .theme-showcase .navbar .container {
   width: auto;
+}
+
+.navbar-inverse {
+  background: rgba(252,236,252,1);
+  background: -moz-linear-gradient(top, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,236,252,1)), color-stop(50%, rgba(251,166,225,1)), color-stop(51%, rgba(253,137,215,1)), color-stop(100%, rgba(255,124,216,1)));
+  background: -webkit-linear-gradient(top, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+  background: -o-linear-gradient(top, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+  background: -ms-linear-gradient(top, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+  background: linear-gradient(to bottom, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8', GradientType=0 );
+  border-color: #cc64af;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: #cc64af;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    color: #ab5a94;
+}
+.logo{
+  font-family: 'Meddon', cursive;
+}
+
+.jumbotron {
+  background-color: #f5ecf7;
+}
+
+.btn-primary {
+  background-color: #d058b6;
+  border-color: #a24e90;
+}
+.btn-primary:hover {
+  background-color: #8a2890;
+  border-color: #74206e;
 }

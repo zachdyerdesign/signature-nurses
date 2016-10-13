@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Signature Nurses
+title: <strong class="logo">Signature</strong> NURSES Inc.
 email: signaturenurses@gmail.com
 phone: +1 866 543 5880
-description: Jekyll starter template for Zach Dyer Design
+description: For the last ten years, Signature NURSES Inc. has helped provide staff for Kansas and Nebraksa's Medical Staffing needs.
 url: "http://signaturenurses.com" # the base hostname & protocol for your site
 
 # Build settings
