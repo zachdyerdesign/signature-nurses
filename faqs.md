@@ -29,7 +29,7 @@ We consider our temporary medical staff to be {{ site.title }} Nurses employees.
 
 ### As a {{ site.title }} employee, when do I get paid on a temporary assignment?
 
-We provide weekly pay to our employees. You have the option of mailing or faxing your timeslips, all paychecks are directly deposited to your account.
+We provide weekly pay to our employees. You have the option of mailing, faxing, or emailing your timeslips, all paychecks are directly deposited to your account.
 
 <hr>
 
@@ -42,5 +42,3 @@ Yes. And we offer bonuses for referrals.
 ### Do you provide any bonuses?
 
 Yes. We provide employee of the month and year bonuses.
-
-<hr>
