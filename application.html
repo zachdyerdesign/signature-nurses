@@ -1,0 +1,153 @@
+---
+layout: page
+menu: Employee Application
+title: Employee Application
+desc: We consider applicants for all positions without regard to race, color, religion, creed, gender, national origin, age, disability, marital or veteran status, or any other legally protected status.
+img: /img/application.png
+---
+
+<form method="post" action="https://formspree.io/{{ site.email }}">
+  <div class="row">
+    <div class="col-md-6">
+      {% include form-text.html name="position" title="Position applied for" %}
+    </div>
+    <div class="col-md-6">
+      {% include form-text.html name="social-security" title="Social security" %}
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-4">
+      {% include form-text.html name="first-name" title="First Name" %}
+    </div>
+    <div class="col-md-4">
+      {% include form-text.html name="middle-name" title="Middle Name" %}
+    </div>
+    <div class="col-md-4">
+      {% include form-text.html name="last-name" title="Last Name" %}
+    </div>
+  </div>
+    <hr>
+  <div class="row">
+    <div class="col-md-12">
+      {% include form-text.html name="address" title="Address" %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      {% include form-text.html name="city" title="City" %}
+    </div>
+    <div class="col-md-4">
+      {% include form-text.html name="state" title="State" %}
+    </div>
+    <div class="col-md-4">
+      {% include form-text.html name="zip" title="Zip" %}
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-6">
+      {% include form-text.html name="home-phone" title="Home Phone" %}
+    </div>
+    <div class="col-md-6">
+      {% include form-text.html name="cell-phone" title="Cell Phone" %}
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-12">
+      {% include form-text.html name="_replyto" title="Email" %}
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-6">
+      {% include form-text.html name="emergency-contact-name" title="Emergency Contact Name" %}
+    </div>
+    <div class="col-md-6">
+      {% include form-text.html name="emergency-contact-phone" title="Emergency Contact Phone" %}
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-3">
+      {% include form-text.html name="best-time-to-contact" title="Best time to contact you is:" %}
+    </div>
+    <div class="col-md-3">
+      <div class="form-group">
+        <label for="work-availability">Are you available for work:</label>
+        <div class="checkbox">
+          <label><input type="checkbox" name="work-availability">full-time</label>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" name="work-availability">part-time</label>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      {% include form-text.html title="Date available for work:" name="available-date" %}
+    </div>
+    <div class="col-md-3">
+      <div class="form-group">
+        <label for="day-availability">What parts of the day are you available?</label>
+        <div class="checkbox">
+          <label><input type="checkbox" name="day-availability" value="mornings">Mornings</label>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" name="day-availability" value="afternoons">Afternoon</label>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" name="day-availability" value="evenings">Evenings</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-3">
+      {% include form-radio.html title="If you are under 18 years of age, can you provide required proof of your eligibility to work?" name="eligibility" %}
+    </div>
+    <div class="col-md-3">
+      {% include form-radio.html title="Are you currently employed?" name="employee-status" %}
+    </div>
+    <div class="col-md-3">
+      {% include form-radio.html title="May we contact your current employer?" name="contact-employer" %}
+    </div>
+    <div class="col-md-3">
+      {% include form-radio.html title="Are you prevented from lawfully becoming employed in this Country because of Visa or Immigration Status?" name="immigration-status" small="Proof	of	citizenship	or	immigration	status	will	be	required	upon	employment." %}
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-4">
+      {% include form-text.html title="What is your desired salary range?" name="desired-salary" %}
+    </div>
+    <div class="col-md-4">
+      {% include form-radio.html title="Are you currently on layoff status and subject to recall?" name="layoff-status" %}
+    </div>
+    <div class="col-md-4">
+      {% include form-radio.html title="Have you been convicted of a felony within the last five years?" name="felony" small="A criminal record does not constitute an automatic ban to employment and will be considered only as it relates to the job in question." %}
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-12">
+      {% include form-textarea.html title="Education" name="education" small="List elementary, high school, undergraduate college, graduate professional, and any additional education related to healthcare-(ex ACLS, TNCC, CPR, PALS, NRP etc.)" %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      {% include form-textarea.html title="Employment Experience" name="experience" small="Starting with your present or most recent job please include employer, address, phone, job title, supervisor, and reason for leaving. List professional, trade, business or civic activities and offices, etc. You may exclude membership which would reveal gender, race, religion, national origin, age, ancestry, disability or other protected status:" %}
+    </div>
+  </div>
+  <hr>
+  <p>NOTE TO APPLICANTS: Do not answer this question unless you have been informed about the requirements of the job for which you are applying.</p>
+
+  {% include form-radio.html title="Are you capable of performing in a reasonable manner, with or without a reasonable accommodation, the activities involved in the job or occupation for which you have applied? A review of the activities involved in such a job or occupation has been given." name="job-capability" %}
+
+  {% include form-textarea.html title="Professional references" name="references" small="List at least 3 professional references name, relationship, address, and phone number." %}
+
+  <p>We are an equal opportunity employer.</p>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
