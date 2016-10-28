@@ -2,7 +2,7 @@
 layout: page
 menu: Find Staff
 title: Find Staff
-desc: For the last ten years, <strong class="logo">Signature</strong> NURSES Inc. has helped provide staff for Kansas and Nebraksa's Medical Staffing needs.
+desc: For the last 16 years, <strong class="logo">Signature</strong> NURSES Inc. has helped provide staff for Kansas and Nebraksa's Medical Staffing needs.
 img: /img/find-staff.jpg
 order: 2
 ---

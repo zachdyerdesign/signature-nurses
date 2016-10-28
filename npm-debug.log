@@ -1,0 +1,239 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'nodelua' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of E:\Cloud\GitHub\signature-nurses\package.json
+5 verbose readDependencies loading dependencies from E:\Cloud\GitHub\signature-nurses\package.json
+6 silly cache add args [ 'nodelua', null ]
+7 verbose cache add spec nodelua
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'nodelua',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'nodelua',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed nodelua@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for nodelua
+11 info addNameTag [ 'nodelua', 'latest' ]
+12 silly mapToRegistry name nodelua
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'nodelua',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'nodelua',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/nodelua
+17 verbose addNameTag registry:https://registry.npmjs.org/nodelua not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/nodelua
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 9:57:44 AM
+21 verbose request id 11aff03b845110b3
+22 http request GET https://registry.npmjs.org/nodelua
+23 http 200 https://registry.npmjs.org/nodelua
+24 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 verbose headers   etag: '"338Q8IP8CEU4F62B40BNPNQNL"',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'content-encoding': 'gzip',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'content-length': '5035',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Mon, 24 Oct 2016 14:57:52 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '0',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-dfw1844-DFW',
+24 verbose headers   'x-cache': 'MISS',
+24 verbose headers   'x-cache-hits': '0',
+24 verbose headers   'x-timer': 'S1477321071.917583,VS0,VE82',
+24 verbose headers   vary: 'Accept-Encoding' }
+25 silly get cb [ 200,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"338Q8IP8CEU4F62B40BNPNQNL"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'content-encoding': 'gzip',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'content-length': '5035',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Mon, 24 Oct 2016 14:57:52 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-dfw1844-DFW',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1477321071.917583,VS0,VE82',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose get saving nodelua to C:\Users\zachdyer\AppData\Roaming\npm-cache\registry.npmjs.org\nodelua\.cache.json
+27 verbose correctMkdir C:\Users\zachdyer\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+28 silly addNameTag next cb for nodelua with tag latest
+29 silly addNamed nodelua@0.3.3
+30 verbose addNamed "0.3.3" is a plain semver version for nodelua
+31 silly mapToRegistry name nodelua
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'nodelua',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   name: 'nodelua',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/nodelua
+36 verbose addRemoteTarball https://registry.npmjs.org/nodelua/-/nodelua-0.3.3.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodelua/-/nodelua-0.3.3.tgz',
+37 verbose addRemoteTarball   'e86f56195d877a46f33bcac5885c128e36b3e348' ]
+38 info retry fetch attempt 1 at 9:57:45 AM
+39 info attempt registry request try #1 at 9:57:45 AM
+40 http fetch GET https://registry.npmjs.org/nodelua/-/nodelua-0.3.3.tgz
+41 http fetch 200 https://registry.npmjs.org/nodelua/-/nodelua-0.3.3.tgz
+42 silly fetchAndShaCheck shasum e86f56195d877a46f33bcac5885c128e36b3e348
+43 verbose addTmpTarball C:\Users\zachdyer\AppData\Local\Temp\npm-1832-5c191a59\registry.npmjs.org\nodelua\-\nodelua-0.3.3.tgz not in flight; adding
+44 verbose addTmpTarball already have metadata; skipping unpack for nodelua@0.3.3
+45 verbose correctMkdir C:\Users\zachdyer\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+46 silly cache afterAdd nodelua@0.3.3
+47 verbose afterAdd C:\Users\zachdyer\AppData\Roaming\npm-cache\nodelua\0.3.3\package\package.json not in flight; writing
+48 verbose correctMkdir C:\Users\zachdyer\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+49 verbose afterAdd C:\Users\zachdyer\AppData\Roaming\npm-cache\nodelua\0.3.3\package\package.json written
+50 silly install resolved [ { name: 'nodelua',
+50 silly install resolved     version: '0.3.3',
+50 silly install resolved     description: 'Lua Bindings For Node.JS',
+50 silly install resolved     keywords: [ 'lua' ],
+50 silly install resolved     main: 'lib/index.js',
+50 silly install resolved     scripts: { test: '', install: 'node-gyp rebuild' },
+50 silly install resolved     homepage: 'http://github.com/brettlangdon/nodelua.git',
+50 silly install resolved     repository:
+50 silly install resolved      { type: 'git',
+50 silly install resolved        url: 'git://github.com/brettlangdon/nodelua.git' },
+50 silly install resolved     author:
+50 silly install resolved      { name: 'Brett Langdon',
+50 silly install resolved        email: 'brett@blangdon.com',
+50 silly install resolved        url: 'http://www.brett.is' },
+50 silly install resolved     contributors: [ [Object] ],
+50 silly install resolved     license: 'MIT',
+50 silly install resolved     gypfile: true,
+50 silly install resolved     engines: { node: '>=0.10.0' },
+50 silly install resolved     engineStrict: true,
+50 silly install resolved     bugs: { url: 'https://github.com/brettlangdon/nodelua/issues' },
+50 silly install resolved     _id: 'nodelua@0.3.3',
+50 silly install resolved     dist:
+50 silly install resolved      { shasum: 'e86f56195d877a46f33bcac5885c128e36b3e348',
+50 silly install resolved        tarball: 'https://registry.npmjs.org/nodelua/-/nodelua-0.3.3.tgz' },
+50 silly install resolved     _from: 'nodelua@latest',
+50 silly install resolved     _npmVersion: '1.3.24',
+50 silly install resolved     _npmUser: { name: 'brett_langdon', email: 'brett@blangdon.com' },
+50 silly install resolved     maintainers: [ [Object] ],
+50 silly install resolved     directories: {},
+50 silly install resolved     _shasum: 'e86f56195d877a46f33bcac5885c128e36b3e348',
+50 silly install resolved     _resolved: 'https://registry.npmjs.org/nodelua/-/nodelua-0.3.3.tgz' } ]
+51 info install nodelua@0.3.3 into E:\Cloud\GitHub\signature-nurses
+52 info installOne nodelua@0.3.3
+53 verbose installOne of nodelua to E:\Cloud\GitHub\signature-nurses not in flight; installing
+54 verbose correctMkdir C:\Users\zachdyer\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+55 verbose lock using C:\Users\zachdyer\AppData\Roaming\npm-cache\_locks\nodelua-ee7602e29a6c1293.lock for E:\Cloud\GitHub\signature-nurses\node_modules\nodelua
+56 silly install write writing nodelua 0.3.3 to E:\Cloud\GitHub\signature-nurses\node_modules\nodelua
+57 verbose unbuild node_modules\nodelua
+58 silly gentlyRm E:\Cloud\GitHub\signature-nurses\node_modules\nodelua is being purged from base E:\Cloud\GitHub\signature-nurses
+59 verbose gentlyRm don't care about contents; nuking E:\Cloud\GitHub\signature-nurses\node_modules\nodelua
+60 verbose tar unpack C:\Users\zachdyer\AppData\Roaming\npm-cache\nodelua\0.3.3\package.tgz
+61 verbose tar unpacking to E:\Cloud\GitHub\signature-nurses\node_modules\nodelua
+62 silly gentlyRm E:\Cloud\GitHub\signature-nurses\node_modules\nodelua is being purged
+63 verbose gentlyRm don't care about contents; nuking E:\Cloud\GitHub\signature-nurses\node_modules\nodelua
+64 silly gunzTarPerm modes [ '777', '666' ]
+65 silly gunzTarPerm extractEntry package.json
+66 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+67 silly gunzTarPerm extractEntry .npmignore
+68 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+69 silly gunzTarPerm extractEntry README.md
+70 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+71 silly gunzTarPerm extractEntry binding.gyp
+72 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+73 silly gunzTarPerm extractEntry examples/config/index.js
+74 silly gunzTarPerm modified mode [ 'examples/config/index.js', 420, 438 ]
+75 silly gunzTarPerm extractEntry examples/config/config.lua
+76 silly gunzTarPerm modified mode [ 'examples/config/config.lua', 420, 438 ]
+77 silly gunzTarPerm extractEntry examples/constants/index.js
+78 silly gunzTarPerm modified mode [ 'examples/constants/index.js', 420, 438 ]
+79 silly gunzTarPerm extractEntry examples/files/index.js
+80 silly gunzTarPerm modified mode [ 'examples/files/index.js', 420, 438 ]
+81 silly gunzTarPerm extractEntry examples/files/test.lua
+82 silly gunzTarPerm modified mode [ 'examples/files/test.lua', 420, 438 ]
+83 silly gunzTarPerm extractEntry examples/functions/index.js
+84 silly gunzTarPerm modified mode [ 'examples/functions/index.js', 420, 438 ]
+85 silly gunzTarPerm extractEntry examples/simple/index.js
+86 silly gunzTarPerm modified mode [ 'examples/simple/index.js', 420, 438 ]
+87 silly gunzTarPerm extractEntry lib/index.js
+88 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+89 silly gunzTarPerm extractEntry src/luastate.cc
+90 silly gunzTarPerm modified mode [ 'src/luastate.cc', 420, 438 ]
+91 silly gunzTarPerm extractEntry src/luastate.h
+92 silly gunzTarPerm modified mode [ 'src/luastate.h', 420, 438 ]
+93 silly gunzTarPerm extractEntry src/nodelua.cc
+94 silly gunzTarPerm modified mode [ 'src/nodelua.cc', 420, 438 ]
+95 silly gunzTarPerm extractEntry src/utils.cc
+96 silly gunzTarPerm modified mode [ 'src/utils.cc', 420, 438 ]
+97 silly gunzTarPerm extractEntry src/utils.h
+98 silly gunzTarPerm modified mode [ 'src/utils.h', 420, 438 ]
+99 verbose write writing to E:\Cloud\GitHub\signature-nurses\node_modules\nodelua\package.json
+100 info preinstall nodelua@0.3.3
+101 verbose readDependencies loading dependencies from E:\Cloud\GitHub\signature-nurses\node_modules\nodelua\package.json
+102 verbose readDependencies loading dependencies from E:\Cloud\GitHub\signature-nurses\node_modules\nodelua\package.json
+103 silly install resolved []
+104 verbose about to build E:\Cloud\GitHub\signature-nurses\node_modules\nodelua
+105 info build E:\Cloud\GitHub\signature-nurses\node_modules\nodelua
+106 info linkStuff nodelua@0.3.3
+107 silly linkStuff nodelua@0.3.3 has E:\Cloud\GitHub\signature-nurses\node_modules as its parent node_modules
+108 verbose linkBins nodelua@0.3.3
+109 verbose linkMans nodelua@0.3.3
+110 verbose rebuildBundles nodelua@0.3.3
+111 info install nodelua@0.3.3
+112 verbose unsafe-perm in lifecycle true
+113 info nodelua@0.3.3 Failed to exec install script
+114 verbose unlock done using C:\Users\zachdyer\AppData\Roaming\npm-cache\_locks\nodelua-ee7602e29a6c1293.lock for E:\Cloud\GitHub\signature-nurses\node_modules\nodelua
+115 verbose stack Error: nodelua@0.3.3 install: `node-gyp rebuild`
+115 verbose stack Exit status 1
+115 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:217:16)
+115 verbose stack     at emitTwo (events.js:87:13)
+115 verbose stack     at EventEmitter.emit (events.js:172:7)
+115 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+115 verbose stack     at emitTwo (events.js:87:13)
+115 verbose stack     at ChildProcess.emit (events.js:172:7)
+115 verbose stack     at maybeClose (internal/child_process.js:827:16)
+115 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+116 verbose pkgid nodelua@0.3.3
+117 verbose cwd E:\Cloud\GitHub\signature-nurses
+118 error Windows_NT 6.1.7601
+119 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "nodelua"
+120 error node v4.4.3
+121 error npm  v2.15.1
+122 error code ELIFECYCLE
+123 error nodelua@0.3.3 install: `node-gyp rebuild`
+123 error Exit status 1
+124 error Failed at the nodelua@0.3.3 install script 'node-gyp rebuild'.
+124 error This is most likely a problem with the nodelua package,
+124 error not with npm itself.
+124 error Tell the author that this fails on your system:
+124 error     node-gyp rebuild
+124 error You can get information on how to open an issue for this project with:
+124 error     npm bugs nodelua
+124 error Or if that isn't available, you can get their info via:
+124 error
+124 error     npm owner ls nodelua
+124 error There is likely additional logging output above.
+125 verbose exit [ 1, true ]
+126 verbose unbuild node_modules\nodelua
+127 info preuninstall nodelua@0.3.3
+128 info uninstall nodelua@0.3.3
+129 verbose unbuild rmStuff nodelua@0.3.3 from E:\Cloud\GitHub\signature-nurses\node_modules
+130 info postuninstall nodelua@0.3.3
+131 silly gentlyRm E:\Cloud\GitHub\signature-nurses\node_modules\nodelua is being purged from base E:\Cloud\GitHub\signature-nurses
+132 verbose gentlyRm don't care about contents; nuking E:\Cloud\GitHub\signature-nurses\node_modules\nodelua
+133 silly vacuum-fs purging E:\Cloud\GitHub\signature-nurses\node_modules\nodelua
+134 silly vacuum-fs removing E:\Cloud\GitHub\signature-nurses\node_modules
+135 silly vacuum-fs finished vacuuming up to E:\Cloud\GitHub\signature-nurses

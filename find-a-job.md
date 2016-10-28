@@ -7,7 +7,7 @@ img: /img/find-a-job.jpg
 order: 3
 ---
 
-For the last ten years, <strong class="logo">Signature</strong> NURSES Inc. has helped provide staff for Kansas and Nebraska's medical staffing needs. We knows first-hand that critical, acute, and long-term care facilities are always in need of talented health care professionals. In order to place the right talent in the facility, Signature employs the services of an experienced and knowledgeable marketing staff working for YOU! <strong class="logo">Signature</strong> NURSES Inc. provides an unparalleled level of service to our nurses and aides by offering:
+For the last 16 years, <strong class="logo">Signature</strong> NURSES Inc. has helped provide staff for Kansas and Nebraska's medical staffing needs. We knows first-hand that critical, acute, and long-term care facilities are always in need of talented health care professionals. In order to place the right talent in the facility, Signature employs the services of an experienced and knowledgeable marketing staff working for YOU! <strong class="logo">Signature</strong> NURSES Inc. provides an unparalleled level of service to our nurses and aides by offering:
 
  - A variety of work environments
  - Higher than standard wages
