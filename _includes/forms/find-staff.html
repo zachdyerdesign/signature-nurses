@@ -1,0 +1,8 @@
+<form action="https://formspree.io/{{ site.email }}" method="post">
+  {% include form-text.html name="facility-name" title="Facility Name" %}
+  {% include form-text.html name="first-name" title="First Name" %}
+  {% include form-text.html name="last-name" title="Last Name" %}
+  {% include form-text.html name="phone" title="Phone Number" %}
+  {% include form-textarea.html name="message" title="Message" %}
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
