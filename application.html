@@ -9,23 +9,26 @@ order: 3
 
 <form method="post" action="https://formspree.io/{{ site.email }}">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-4">
       {% include form-text.html name="position" title="Position applied for" %}
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       {% include form-text.html name="social-security" title="Social security" %}
+    </div>
+    <div class="col-md-4">
+      {% include form-text.html name="birthdate" title="Birthdate" %}
     </div>
   </div>
   <hr>
   <div class="row">
     <div class="col-md-4">
-      {% include form-text.html name="first-name" title="First Name" %}
+      {% include form-text.html name="first-name" title="First Name" required="true" %}
     </div>
     <div class="col-md-4">
       {% include form-text.html name="middle-name" title="Middle Name" %}
     </div>
     <div class="col-md-4">
-      {% include form-text.html name="last-name" title="Last Name" %}
+      {% include form-text.html name="last-name" title="Last Name" required="true" %}
     </div>
   </div>
     <hr>
@@ -51,13 +54,13 @@ order: 3
       {% include form-text.html name="home-phone" title="Home Phone" %}
     </div>
     <div class="col-md-6">
-      {% include form-text.html name="cell-phone" title="Cell Phone" %}
+      {% include form-text.html name="cell-phone" title="Cell Phone" required="true" %}
     </div>
   </div>
   <hr>
   <div class="row">
     <div class="col-md-12">
-      {% include form-text.html name="_replyto" title="Email" %}
+      {% include form-text.html name="_replyto" title="Email" required="true" %}
     </div>
   </div>
   <hr>
@@ -149,6 +152,15 @@ order: 3
   {% include form-textarea.html title="Professional references" name="references" small="List at least 3 professional references name, relationship, address, and phone number." %}
 
   <p>We are an equal opportunity employer.</p>
+
+  <p>WAIVERS AND DISCLOSURES Please read each section carefully and sign where indicated.</p>
+
+  <p>AT-WILL EMPLOYMENT It is my understanding that this employment application, or the granting of an oral interview, does not represent a contract of employment or a promise of future benefits by this organization. I understand and agree that, if hired, my employment will be at-will in nature and may be terminated, with or without cause, at any time, by either myself or my employer. I also understand that this written statement supersedes any and all oral representations made by agents or representatives of this organization.</p> ­­­­­­­­­­­­­­­
+  <p>CERTIFICATION OF TRUTH AND ACCURACY I certify that the information in this application is true, complete and correct. I understand that false answers, statements, or significant omissions made by me on this form shall be sufficient cause for denial of employment or discharge.</p>
+
+  <p>NOTIFICATION AND AUTHORIZATION TO REQUIRE A MEDICAL EXAMINATION I hereby certify that, if hired, I will disclose any limitations I have that may impact my ability to do the job. I understand that I may also be required to undergo a pre-employment or post-employment medical exam by {{ site.title }} designated health practitioner. </p>
+
+  <p>NOTIFICATION AND AUTHORIZATION TO CONDUCT BACKGROUND INVESTIGATION I understand that I may be subject to a background check, and hereby authorize {{ site.title }} partner Damian Services authorization. using their issued company for {{ site.title }}, to investigate my background to determine any and all information of concern as to my record, whether same is of record or not, and I release employers and persons named in my application from all liability for any damages on account of his/her furnishing said information. Additionally, you are hereby authorized to make any investigation of my personal history, educational background, military record, motor vehicle records, criminal records and credit history through an investigative or credit agency or bureau of your choice. I authorize the release of this information by the appropriate agencies to the investigating service. This authorization, in original or copy form, shall be valid for this and for any future reports and updates that may be required. I understand that passing the background check is a condition of employment. A negative background check can be grounds for dismissal, even if an offer has been made to me and I have been hired.</p>
 
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
