@@ -19,7 +19,6 @@ phone: +1 866 543 5880
 description: For the last ten years, Signature NURSES Inc. has helped provide staff for Kansas and Nebraksa's Medical Staffing needs.
 address: 1471 W South St.<br>Ozark, MO 65721
 url: "http://signaturenurses.com" # the base hostname & protocol for your site
-baseurl: "/signature-nurses"
 
 # Build settings
 markdown: kramdown
