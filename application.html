@@ -10,13 +10,13 @@ order: 3
 <form method="post" action="https://formspree.io/{{ site.email }}">
   <div class="row">
     <div class="col-md-4">
-      {% include form-text.html name="position" title="Position applied for" %}
+      {% include form-text.html name="position" title="Position applied for" required="true" %}
     </div>
     <div class="col-md-4">
-      {% include form-text.html name="social-security" title="Social security" %}
+      {% include form-text.html name="social-security" title="Social security" required="true"  %}
     </div>
     <div class="col-md-4">
-      {% include form-text.html name="birthdate" title="Birthdate" %}
+      {% include form-text.html name="birthdate" title="Birthdate" required="true"  %}
     </div>
   </div>
   <hr>
@@ -34,24 +34,24 @@ order: 3
     <hr>
   <div class="row">
     <div class="col-md-12">
-      {% include form-text.html name="address" title="Address" %}
+      {% include form-text.html name="address" title="Address" required="true"  %}
     </div>
   </div>
   <div class="row">
     <div class="col-md-4">
-      {% include form-text.html name="city" title="City" %}
+      {% include form-text.html name="city" title="City" required="true"  %}
     </div>
     <div class="col-md-4">
-      {% include form-text.html name="state" title="State" %}
+      {% include form-text.html name="state" title="State" required="true"  %}
     </div>
     <div class="col-md-4">
-      {% include form-text.html name="zip" title="Zip" %}
+      {% include form-text.html name="zip" title="Zip" required="true"  %}
     </div>
   </div>
   <hr>
   <div class="row">
     <div class="col-md-6">
-      {% include form-text.html name="home-phone" title="Home Phone" %}
+      {% include form-text.html name="home-phone" title="Home Phone" required="true"  %}
     </div>
     <div class="col-md-6">
       {% include form-text.html name="cell-phone" title="Cell Phone" required="true" %}
@@ -66,16 +66,16 @@ order: 3
   <hr>
   <div class="row">
     <div class="col-md-6">
-      {% include form-text.html name="emergency-contact-name" title="Emergency Contact Name" %}
+      {% include form-text.html name="emergency-contact-name" title="Emergency Contact Name" required="true"  %}
     </div>
     <div class="col-md-6">
-      {% include form-text.html name="emergency-contact-phone" title="Emergency Contact Phone" %}
+      {% include form-text.html name="emergency-contact-phone" title="Emergency Contact Phone" required="true"  %}
     </div>
   </div>
   <hr>
   <div class="row">
     <div class="col-md-3">
-      {% include form-text.html name="best-time-to-contact" title="Best time to contact you is:" %}
+      {% include form-text.html name="best-time-to-contact" title="Best time to contact you is:" required="true"  %}
     </div>
     <div class="col-md-3">
       <div class="form-group">
@@ -89,7 +89,7 @@ order: 3
       </div>
     </div>
     <div class="col-md-3">
-      {% include form-text.html title="Date available for work:" name="available-date" %}
+      {% include form-text.html title="Date available for work:" name="available-date" required="true"  %}
     </div>
     <div class="col-md-3">
       <div class="form-group">
@@ -124,7 +124,7 @@ order: 3
   <hr>
   <div class="row">
     <div class="col-md-4">
-      {% include form-text.html title="What is your desired salary range?" name="desired-salary" %}
+      {% include form-text.html title="What is your desired salary range?" name="desired-salary" required="true"  %}
     </div>
     <div class="col-md-4">
       {% include form-radio.html title="Are you currently on layoff status and subject to recall?" name="layoff-status" %}
