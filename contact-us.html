@@ -8,28 +8,38 @@ order: 4
 ---
 
 
-<p><strong>Interested in becoming part of the {{ site.title }} Team? </strong><br>
-Phone: <a href="tel:{{site.phone}}">{{ site.phone }}</a> <br>
-Email: <a href="mailto:{{site.email}}"></a>{{ site.email }} <br>
-</p>
 
-<form method="post" action="https://formspree.io/{{ site.email }}">
-  <div class="form-group">
-    <label for="name">Name</label>
-    <input type="text" class="form-control" placeholder="Enter name" name="name">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+<div class="row">
+  <div class="col-md-4">
+    <p><strong>Interested in becoming part of the {{ site.title }} Team? </strong><br>
+    Phone: <a href="tel:{{site.phone}}">{{ site.phone }}</a> <br>
+    Email: <a href="mailto:{{site.email}}"></a>{{ site.email }} <br>
+    </p>
+    <h2>Staff</h2>
+    <img src="img/lexy.jpg" alt="" class="img-circle" width="140" height="140">
+    <p><strong>Alexandra Tennison</strong></p>
+    <p><em>Vice President</em></p>
   </div>
-  <div class="form-group">
-    <label for="_replyto">Email address</label>
-    <input type="email" class="form-control" placeholder="Enter email" name="_replyto">
+  <div class="col-md-8">
+    <form method="post" action="https://formspree.io/{{ site.email }}">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" placeholder="Enter name" name="name">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="_replyto">Email address</label>
+        <input type="email" class="form-control" placeholder="Enter email" name="_replyto">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Phone Number</label>
+        <input type="text" class="form-control" placeholder="Enter phone number" name="phone">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" rows="3" name="message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Phone Number</label>
-    <input type="text" class="form-control" placeholder="Enter phone number" name="phone">
-  </div>
-  <div class="form-group">
-    <label for="message">Message</label>
-    <textarea class="form-control" rows="3" name="message"></textarea>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+</div>
