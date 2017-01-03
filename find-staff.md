@@ -7,7 +7,7 @@ img: /img/find-staff.jpg
 order: 2
 ---
 
-After ten years of providing nursing services we are uniquely qualified to provide you with exceptional nurses and aides for your facility. {{ site.title }} continues to ensure that every nurse and aide in the {{ site.title }} network has completed a comprehensive quality assessment including:
+After 16 years of providing nursing services we are uniquely qualified to provide you with exceptional nurses and aides for your facility. {{ site.title }} continues to ensure that every nurse and aide in the {{ site.title }} network has completed a comprehensive quality assessment including:
 
  - Training review
  - License confirmation
