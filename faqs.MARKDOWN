@@ -42,3 +42,7 @@ Yes. And we offer bonuses for referrals.
 ### Do you provide any bonuses?
 
 Yes. We provide employee of the month and year bonuses.
+
+### Do you staff in Missouri?
+
+Yes. We do staff in Missouri.

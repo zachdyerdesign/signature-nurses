@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://signaturenurses.com/application.html</loc>
+<loc>http://0.0.0.0:8080/application.html</loc>
 </url>
 <url>
-<loc>http://signaturenurses.com/contact-us.html</loc>
+<loc>http://0.0.0.0:8080/contact-us.html</loc>
 </url>
 <url>
-<loc>http://signaturenurses.com/faqs.html</loc>
+<loc>http://0.0.0.0:8080/faqs.html</loc>
 </url>
 <url>
-<loc>http://signaturenurses.com/find-a-job.html</loc>
+<loc>http://0.0.0.0:8080/find-a-job.html</loc>
 </url>
 <url>
-<loc>http://signaturenurses.com/find-staff.html</loc>
+<loc>http://0.0.0.0:8080/find-staff.html</loc>
 </url>
 <url>
-<loc>http://signaturenurses.com/</loc>
+<loc>http://0.0.0.0:8080/</loc>
 </url>
 <url>
-<loc>http://signaturenurses.com/downloads/timesheet.pdf</loc>
-<lastmod>2016-11-30T16:13:49-06:00</lastmod>
+<loc>http://0.0.0.0:8080/downloads/timesheet.pdf</loc>
+<lastmod>2017-05-15T12:25:44+00:00</lastmod>
 </url>
 </urlset>
