@@ -20,13 +20,13 @@ body.page {
 }
 
 .navbar-inverse {
-  background: rgba(252,236,252,1);
-  background: -moz-linear-gradient(top, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,236,252,1)), color-stop(50%, rgba(251,166,225,1)), color-stop(51%, rgba(253,137,215,1)), color-stop(100%, rgba(255,124,216,1)));
-  background: -webkit-linear-gradient(top, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
-  background: -o-linear-gradient(top, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
-  background: -ms-linear-gradient(top, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
-  background: linear-gradient(to bottom, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+  background: rgba(81,40,136,1);
+  background: -moz-linear-gradient(top, rgba(81,40,136,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(81,40,136,1), color-stop(50%, rgba(251,166,225,1)), color-stop(51%, rgba(253,137,215,1)), color-stop(100%, rgba(255,124,216,1)));
+  background: -webkit-linear-gradient(top, rgba(81,40,136,1 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+  background: -o-linear-gradient(top, rgba(81,40,136,1 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+  background: -ms-linear-gradient(top, rgba(81,40,136,1 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+  background: linear-gradient(to bottom, rgba(81,40,136,1 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8', GradientType=0 );
   border-color: #cc64af;
 }
@@ -55,4 +55,9 @@ body.page {
 
 .slide {
   background-size: cover;
+}
+
+.navbar-brand > img {
+  display: block;
+    margin-top:-33px;
 }

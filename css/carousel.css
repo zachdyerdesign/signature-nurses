@@ -45,6 +45,11 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  padding:20px;
+  background-color:rgba(0,0,0,.6);
+  -moz-border-radius:10px;
+  border-radius:10px;
+  
 }
 
 /* Declare heights because of positioning of img element */
@@ -132,3 +137,5 @@ body {
     margin-top: 120px;
   }
 }
+
+
